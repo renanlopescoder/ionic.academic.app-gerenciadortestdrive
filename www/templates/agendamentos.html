@@ -1,0 +1,9 @@
+<ion-view title="Agendamentos" id="page2">
+  <ion-content padding="true" class="has-header">
+    <div class="card" ng-repeat="agendamento in agendamentos">
+      <div class="item item-divider">Nome: {{agendamento.nome}}</div>
+      <div class="item item-text-wrap">Modelo: {{agendamento.carro.nome}}</div>
+      <div class="item item-divider">Data Agendamento: {{agendamento.dataAgendamento}}</div>
+    </div>
+  </ion-content>
+</ion-view>
